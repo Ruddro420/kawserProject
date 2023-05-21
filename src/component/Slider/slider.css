@@ -1,0 +1,25 @@
+.slider-container {
+    /*  border-bottom-left-radius: 80px!important;
+    border-bottom-right-radius: 80px!important; */
+
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 50px),50% 100%,0 calc(100% - 50px))!important;
+    
+}
+
+.btn-circle {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 9999px;
+    padding: 0px;
+    background: black !important;
+}
+
+.btn-xs {
+    height: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    min-height: 1.5rem;
+    font-size: 0.75rem;
+    background: black !important;
+    border-radius: 100% !important;
+}
