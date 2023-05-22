@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "src": "./src/img/partner/p-1.jpg",
+        "title": "Demo Content Here",
+        "link": "https://www.google.com/",
+        "altText": "partner-1"
+    },
+    {
+        "id": 2,
+        "src": "./src/img/partner/p-2.jpg",
+        "title": "Demo Content Here",
+        "link": "https://www.google.com/",
+        "altText": "partner-2"
+    },
+    {
+        "id": 3,
+        "src": "./src/img/partner/p-3.jpg",
+        "title": "Demo Content Here",
+        "link": "https://www.google.com/",
+        "altText": "partner-3"
+    },
+    {
+        "id": 4,
+        "src": "./src/img/partner/p-4.jpg",
+        "title": "Demo Content Here",
+        "link": "https://www.google.com/",
+        "altText": "partner-4"
+    },
+    {
+        "id": 5,
+        "src": "./src/img/partner/p-5.jpg",
+        "title": "Demo Content Here",
+        "link": "https://www.google.com/",
+        "altText": "partner-4"
+    }
+]

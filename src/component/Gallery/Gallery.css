@@ -76,7 +76,7 @@
         display: grid;
         grid-template-columns: auto;
         gap: 30px;
-        margin: 50px;
+        margin: 10px;
     }
 
     .gallery-content{

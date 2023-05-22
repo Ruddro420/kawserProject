@@ -1,15 +1,22 @@
 import './Gallery.css'
 import galleryData from '../../../galleryData.json';
-/* import gallery_1 from '../../img/gallery/g-1.png';
-import gallery_2 from '../../img/gallery/g-2.png';
-import gallery_3 from '../../img/gallery/g-3.png'; */
-
+import { useEffect, useState } from 'react';
 
 
 const Gallery = () => {
+    const [backgroundImageUrl, setBackgroundImageUrl] = useState('');
+    useEffect(() => {
+        setInterval(() => {
+            const randomIndex = Math.floor(Math.random() * galleryData.length);
+            setBackgroundImageUrl(galleryData[randomIndex]);
+        }, 5000);
+
+    }, []);
+
+    console.log(backgroundImageUrl);
     return (
         <>
-            <div className="hero">
+            <div id='design' className="hero">
                 <div className="hero-content text-center">
                     <div className="max-w-md">
                         <h1 className="text-5xl font-bold m-gallery">Gallery</h1>
@@ -19,12 +26,12 @@ const Gallery = () => {
             <div className='main-gallery-container'>
                 <div className="gallery-container">
                     {
-                        galleryData.map(gData => 
-                            
+                        galleryData.map(gData =>
 
-                            <a key={gData.id} href='#' className="single-img">
+
+                            <a data-aos="zoom-in" key={gData.id} href='#' className="single-img">
                                 <div style={{
-                                    backgroundImage: `url(${gData.src})`,
+                                    backgroundImage: `url(${backgroundImageUrl.src})`,
                                     backgroundSize: 'cover',
                                     backgroundRepeat: 'no-repeat',
                                     backgroundPosition: 'center',

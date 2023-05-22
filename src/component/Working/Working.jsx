@@ -9,7 +9,7 @@ const Working = () => {
             <div className="hero">
                 <div className="hero-content text-center">
                     <div className="max-w-md">
-                        <h1 className="text-5xl font-bold m-gallery" >Working</h1>
+                        <h1 data-aos="fade-down" className="text-5xl font-bold m-gallery" >Working</h1>
                     </div>
                 </div>
             </div>
@@ -18,7 +18,7 @@ const Working = () => {
 
                     {
                         workingData.map(wData =>
-                            <a key={wData.id} href='#' className="single-img">
+                            <a data-aos="zoom-in" key={wData.id} href='#' className="single-img">
                                 <div style={{
                                     backgroundImage: `url(${wData.src})`,
                                     backgroundSize: 'cover',

@@ -21,6 +21,7 @@
         "altText": "galler-3"
     },
     {
+        "id": 4,
         "src": "./src/img/gallery/g-14.jpg",
         "title": "Demo Content Here",
         "link": "https://www.google.com/",

@@ -59,7 +59,7 @@
         display: grid;
         grid-template-columns: auto;
         gap: 30px;
-        margin: 50px;
+        margin: 10px;
     }
     .working-content {
         background-image: url(https://bluemediacom.wpenginepowered.com/wp-content/themes/bluemedia/assets/images/callout-blue-bg-left.png);
@@ -68,7 +68,7 @@
         background-repeat: no-repeat;
         color: white;
         padding: 10px;
-        width: 90%;
+        width: 97%;
         margin-left: 10px!important;
         padding-left: 50px!important;
         position: absolute;
