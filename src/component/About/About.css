@@ -62,3 +62,22 @@
     font-size: 20px;
     text-align: center;
 }
+
+/* Responsive */
+
+@media(max-width:768px)
+{
+    .about-hero-bottom{
+        width: 100%!important;
+        margin: auto!important;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .hero .about-img {
+        height: 300px;
+        width: 500px;
+    }
+}

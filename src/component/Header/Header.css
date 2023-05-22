@@ -9,3 +9,16 @@
     width: 1200px!important;
     margin: auto;
 }
+
+@media(max-width:768px)
+{
+    .navbar{
+        width: 100%!important;
+        margin: auto;
+    }
+    .normal-case {
+        text-transform: none;
+        margin-left: 50px;
+      }
+    
+}

@@ -5,7 +5,7 @@
     margin-bottom: 90px;
 }
 
-.slick-prev:before, .slick-next:before {
+.partner-container .slick-prev:before, .slick-next:before {
     font-family: 'slick';
     font-size: 25px!important;
     line-height: 1;
@@ -18,4 +18,24 @@
 .inner-partner-image{
     display: flex!important;
     justify-content: center!important;
+}
+
+.partner-container .slick-prev:before {
+    font-family: 'slick';
+    font-size: 40px!important;
+    line-height: 1;
+    opacity: .75;
+    background: black!important;
+    padding: 10px!important;
+    color: white!important;
+    -webkit-font-smoothing: antialiased;
+}
+
+@media(max-width:768px){
+    .partner-container{
+        width: 100%!important;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 90px;
+    }
 }

@@ -15,7 +15,18 @@ const Partner = () => {
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        controls:true
+        controls:true,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          
+        ]
       };
     return (
         <div className='partner-container'>
