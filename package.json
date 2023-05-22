@@ -13,7 +13,9 @@
     "daisyui": "^2.51.6",
     "embla-carousel-react": "^8.0.0-rc04",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
