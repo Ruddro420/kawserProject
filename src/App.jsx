@@ -20,8 +20,8 @@ function App() {
       <Contact></Contact>
       <Working></Working>
       <Partner></Partner>
-     {/*  <Footer></Footer>
-      <FooterBottom></FooterBottom> */}
+      <Footer></Footer>
+      <FooterBottom></FooterBottom>
     </>
   )
 }

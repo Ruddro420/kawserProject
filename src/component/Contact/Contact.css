@@ -5,3 +5,10 @@
     width: 80%!important;
     margin: auto;
 }
+
+@media(max-width:768px){
+    .card {
+        width: 100% !important;
+        margin: auto;
+      }
+}

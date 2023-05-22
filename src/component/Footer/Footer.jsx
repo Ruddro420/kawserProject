@@ -1,9 +1,10 @@
+import './Footer.css'
 
 const Footer = () => {
     return (
         <>
         <div style={{background:'black'}}>
-            <footer style={{width:'1200px',margin:'auto'}} className="footer p-10 text-neutral-content">
+            <footer className="footer p-10 text-neutral-content">
                 <div>
                     <a className="link link-hover">Contact Us</a>
                     <a className="link link-hover">About Us</a>

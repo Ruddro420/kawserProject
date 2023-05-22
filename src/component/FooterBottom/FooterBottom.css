@@ -1,0 +1,11 @@
+.footer-bottom{
+    width: 1200px!important;
+    margin: auto!important;
+}
+
+@media(max-width:768px){
+    .footer-bottom{
+        width: 100%!important;
+        margin: auto!important;
+    }
+}

@@ -38,4 +38,25 @@
         text-align: center;
         margin-bottom: 90px;
     }
+
+    .partner-container .slick-arrow .slick-next{
+        margin-right: 70px!important;
+    }
+
+    .partner-container .slick-next {
+        right: 50px!important;
+      }
+      .partner-container .slick-prev {
+        left: 20px!important;
+      }
+      .partner-container .slick-prev::before {
+        font-family: 'slick';
+        font-size: 20px !important;
+        line-height: 1;
+        opacity: .75;
+        background: black !important;
+        padding: 10px !important;
+        color: white !important;
+        -webkit-font-smoothing: antialiased;
+      }
 }

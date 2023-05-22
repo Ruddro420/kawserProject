@@ -61,4 +61,17 @@
         gap: 30px;
         margin: 50px;
     }
+    .working-content {
+        background-image: url(https://bluemediacom.wpenginepowered.com/wp-content/themes/bluemedia/assets/images/callout-blue-bg-left.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        padding: 10px;
+        width: 90%;
+        margin-left: 10px!important;
+        padding-left: 50px!important;
+        position: absolute;
+        bottom: 0;
+    }
 }

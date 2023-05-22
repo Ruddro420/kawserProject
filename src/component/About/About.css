@@ -79,5 +79,14 @@
     .hero .about-img {
         height: 300px;
         width: 500px;
+        margin-bottom: 30px;
     }
+    .about-hero-bottom {
+        width: 100% !important;
+        margin: auto !important;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 30px;
+        justify-content: center!important;
+      }
 }
