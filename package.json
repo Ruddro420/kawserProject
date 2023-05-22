@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "daisyui": "^2.51.6",
+    "embla-carousel-react": "^8.0.0-rc04",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

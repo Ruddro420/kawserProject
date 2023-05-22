@@ -1,0 +1,71 @@
+
+.main-working-container{
+    margin-bottom: 90px;
+}
+
+.working-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin: 50px;
+}
+
+.single-img{
+    position: relative;
+    border: 2px solid rgb(242, 210, 7);
+    border-top-left-radius: 50px;
+}
+.gallery-image{
+    border-top-left-radius: 50px;
+}
+
+.learn-more{
+    margin-top: 10px;
+    display: none;
+    transition: transform .9s;
+    border: 2px solid white;
+    width: 50%;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 8px;
+
+}
+
+.working-content{
+    background-image: url(https://bluemediacom.wpenginepowered.com/wp-content/themes/bluemedia/assets/images/callout-blue-bg-left.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 10px;
+    width: 90%;
+    margin-left: 30px;
+    padding-left: 100px;
+    /* clip-path: polygon(4% 0, 92% 0, 88% 100%, 0 99%); */
+    position: absolute;
+    bottom: 0;
+}
+.working-content:hover{
+    background-image: url(https://bluemediacom.wpenginepowered.com/wp-content/themes/bluemedia/assets/images/callout-blue-bg-left.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 10px;
+    width: 90%!important;
+    margin-left: 30px;
+    padding-left: 100px;
+   /*  clip-path: polygon(4% 0, 92% 0, 88% 100%, 0 99%); */
+    position: absolute;
+    bottom: 0;
+    transform: scale(1);
+    
+}
+
+.working-content:hover .learn-more{
+    display: block;
+}
+
+.main-working-container h2{
+    font-size: 20px;
+}
