@@ -12,6 +12,11 @@
 
 .single-img{
     position: relative;
+    border: 2px solid rgb(242, 210, 7);
+    border-top-left-radius: 50px;
+}
+.gallery-image{
+    border-top-left-radius: 50px;
 }
 
 .learn-more{
@@ -27,29 +32,35 @@
 }
 
 .gallery-content{
-    background-image: linear-gradient(to right, #000000, #3d1425, #75184b, #af167a, #ea10b3);
+    background-image: url(https://bluemediacom.wpenginepowered.com/wp-content/themes/bluemedia/assets/images/callout-blue-bg-left.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     padding: 30px;
-    width: 50%;
+    width: 70%;
     margin-left: 80px;
-    padding-left: 50px;
-    clip-path: polygon(4% 0, 92% 0, 88% 100%, 0 99%);
+    padding-left: 100px;
+    /* clip-path: polygon(4% 0, 92% 0, 88% 100%, 0 99%); */
     position: absolute;
     bottom: 0;
-    transition: transform 5s; /* Animation */
+    transition: 5s; /* Animation */
 }
 .gallery-content:hover{
-    background-image: linear-gradient(to right, #000000, #3d1425, #75184b, #af167a, #ea10b3);
+    background-image: url(https://bluemediacom.wpenginepowered.com/wp-content/themes/bluemedia/assets/images/callout-blue-bg-left.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     padding: 30px;
-    width: 50%;
+    width: 70%;
     margin-left: 80px;
-    padding-left: 50px;
-    clip-path: polygon(4% 0, 92% 0, 88% 100%, 0 99%);
+    padding-left: 100px;
+   /*  clip-path: polygon(4% 0, 92% 0, 88% 100%, 0 99%); */
     position: absolute;
     bottom: 0;
     transform: scale(1);
-    transition: transform 5s;
+    transition: 5s;
     
 }
 

@@ -7,6 +7,14 @@ import gallery_3 from '../../img/gallery/g-3.png';
 
 const Gallery = () => {
     return (
+        <>
+         <div className="hero">
+                <div className="hero-content text-center">
+                    <div className="max-w-md">
+                        <h1 className="text-5xl font-bold">Gallery</h1>
+                    </div>
+                </div>
+            </div>
         <div className='main-gallery-container'>
             <div className="gallery-container">
                 <a href='#' className="single-img">
@@ -16,7 +24,7 @@ const Gallery = () => {
                         backgroundRepeat: 'no-repeat',
                         backgroundPosition: 'center',
                         height: '400px',
-                        width: '100%'
+                        width: '100%',
                     }} className="gallery-image">
                         <div className="gallery-content">
                         <div className="divider"></div>
@@ -85,6 +93,7 @@ const Gallery = () => {
             </div>
 
         </div>
+        </>
     );
 };
 
