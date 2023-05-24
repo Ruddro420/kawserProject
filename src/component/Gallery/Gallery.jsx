@@ -12,7 +12,8 @@ const Gallery = () => {
 //   }, []);
   return (
     <>
-      <div id="design" className="hero">
+     <div className="container mx-auto">
+     <div id="design" className="hero">
         <div className="hero-content text-center">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold m-gallery">Gallery</h1>
@@ -36,7 +37,7 @@ const Gallery = () => {
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "center",
                   height: "400px",
-                  width: "100%",
+                  width: "auto",
                 }}
                 className="gallery-image"
               >
@@ -52,6 +53,7 @@ const Gallery = () => {
           ))}
         </div>
       </div>
+     </div>
     </>
   );
 };

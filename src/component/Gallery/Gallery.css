@@ -1,11 +1,12 @@
 
 .main-gallery-container{
+    width: 100%!important;
     margin-bottom: 90px;
 }
 
 .gallery-container{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, 50%);
     gap: 30px;
     margin: 50px;
 }
@@ -57,10 +58,11 @@
 
 @media(max-width:991px)
 {
+   
     .gallery-container{
         display: grid;
-        grid-template-columns: auto;
-        gap: 30px;
+        grid-template-columns: repeat(1, 100%);
+        gap: 30px!important;
         margin: 10px;
     }
 
@@ -73,7 +75,7 @@
         padding: 10px!important;
         width: 97%!important;
         margin-left: 10px!important;
-        padding-left: 100px!important;
+        padding-left: 90px!important;
         position: absolute;
         bottom: 0;
         

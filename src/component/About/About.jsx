@@ -13,7 +13,7 @@ const About = () => {
             </div>
             <div className="hero">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img data-aos="fade-down-left" data-aos-duration={1000} src={aboutImg} className="about-img rounded-lg shadow-2xl" />
+                    <img data-aos="fade-down" data-aos-duration={1000} src={aboutImg} className="about-img rounded-lg shadow-2xl" />
                     <div>
                         <h1 className="text-5xl font-bold" data-aos="fade-up" data-aos-duration={1000}>EXECUTION MATTERS.</h1>
                         <h3 className="text-3xl font-bold mt-6" data-aos="fade-up" data-aos-duration={1000}>That’s why we Make it Perfect™.</h3>

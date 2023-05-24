@@ -9,10 +9,29 @@
     border: none;
 }
 
-body{
+
+/* body{
     font-family: 'Inter', sans-serif;
-    width: 100%;
-}
+} */
+html {
+    overflow-y: scroll;
+   }
+   
+   :root {
+     overflow-y: auto;
+     overflow-x: hidden;
+   }
+   
+   :root body {
+     position: absolute;
+   }
+   
+   body {
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+   }
+
 
 @media(max-width:768px){
     .hero-content {
