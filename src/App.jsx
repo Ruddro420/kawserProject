@@ -18,15 +18,15 @@ function App() {
 
   return (
     <>
-      <Header></Header>
-      <MainSlider></MainSlider>
-      <About></About>
-      <Gallery></Gallery>
-      <Contact></Contact>
-      <Working></Working>
-      <Partner></Partner>
-      <Footer></Footer>
-      <FooterBottom></FooterBottom>
+      <Header/>
+      <MainSlider/>
+      <About/>
+      <Gallery/>
+      <Contact/>
+      <Working/>
+      <Partner/>
+      <Footer/>
+      <FooterBottom/>
     </>
   )
 }

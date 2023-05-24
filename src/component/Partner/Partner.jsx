@@ -24,7 +24,7 @@ const Partner = () => {
     ]
   };
   return (
-    <div data-aos="flip-up" className='partner-container'>
+    <div data-aos="flip-up" data-aos-duration={1000} className='partner-container'>
       <Slider {...settings}>
         {
           partnerData.map(pData =>

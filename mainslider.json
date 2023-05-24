@@ -1,27 +1,27 @@
 [
     {
-        "id": 1,
-        "src": "./src/img/slider/slider-1.png",
+        "id": 2,
+        "src": "img/slider/slider-2.png",
         "altText": "slider-1"
     },
     {
-        "id": 2,
-        "src": "./src/img/slider/slider-2.png",
+        "id": 1,
+        "src": "img/slider/slider-1.png",
         "altText": "slider-1"
     },
     {
         "id": 3,
-        "src": "./src/img/slider/slider-3.png",
+        "src": "img/slider/slider-3.png",
         "altText": "slider-1"
     },
     {
         "id": 4,
-        "src": "./src/img/slider/slider-4.png",
+        "src": "img/slider/slider-4.png",
         "altText": "slider-1"
     },
     {
         "id": 5,
-        "src": "./src/img/slider/slider-5.png",
+        "src": "img/slider/slider-5.png",
         "altText": "slider-1"
     }
 ]

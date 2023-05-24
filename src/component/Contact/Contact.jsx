@@ -6,14 +6,14 @@ const Contact = () => {
              <div className="hero">
                 <div className="hero-content text-center">
                     <div className="max-w-md">
-                        <h1 data-aos="fade-down" className="text-5xl font-bold m-gallery">Contact Us</h1>
+                        <h1 data-aos="fade-down" data-aos-duration={1000} className="text-5xl font-bold m-gallery">Contact Us</h1>
                     </div>
                 </div>
             </div>
             <div className="hero">
                 <div className="hero-content ">
                     <div className="card shadow-2xl">
-                        <div data-aos="zoom-out" className="card-body">
+                        <div data-aos="zoom-out" data-aos-duration={1000} className="card-body">
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">First Name*</span>

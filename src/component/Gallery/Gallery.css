@@ -20,15 +20,13 @@
 }
 
 .learn-more{
-    margin-top: 10px;
-    display: none;
-    transition: transform .9s;
+   visibility: hidden;
+    transition: all .5s ease-in;
+    margin-bottom: -25px;
     border: 2px solid white;
     width: 50%;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    padding: 8px;
-
 }
 
 .gallery-content{
@@ -42,28 +40,15 @@
     margin-left: 80px;
     padding-left: 100px;
     position: absolute;
-    bottom: 0;
-    
-}
-.gallery-content:hover{
-    background-image: url(https://bluemediacom.wpenginepowered.com/wp-content/themes/bluemedia/assets/images/callout-blue-bg-left.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    padding: 30px;
-    width: 70%;
-    margin-left: 80px;
-    padding-left: 100px;
-    position: absolute;
-    bottom: 0;
-    transition: all ease-in 5s;
-    
+    bottom: 0;   
 }
 
 
-.gallery-content:hover .learn-more{
-    display: block;
+.single-img:hover .learn-more{
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 8px;
+    visibility: visible;
 }
 
 .main-gallery-container h2{
