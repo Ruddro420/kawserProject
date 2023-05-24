@@ -18,8 +18,28 @@ const Working = () => {
 
                     {
                         workingData.map((wData, i) =>
-                            <a data-aos="zoom-in" data-aos-duration={1000 + 100 * i} key={wData.id} href='#' className="single-img">
-                                <div style={{
+                            <a data-aos="zoom-in" data-aos-duration={1000 + 100 * i} key={wData.id} href='#' className="">
+
+
+<div className="card w-96 bg-base-100 shadow-xl mt-10">
+  <figure className="pt-10">
+    <img src={wData.src} alt={wData.altText} className="rounded-xl working-img" />
+  </figure>
+  <div className="card-body items-center text-center">
+    <h2 className="card-title">{wData.title}</h2>
+    <p>{wData.description}</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+                              {/*   <div style={{
                                     backgroundImage: `url(${wData.src})`,
                                     backgroundSize: 'cover',
                                     backgroundRepeat: 'no-repeat',
@@ -34,7 +54,7 @@ const Working = () => {
                                             <a href={wData.link}>Learn More</a>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </a>
 
                         )

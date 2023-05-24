@@ -1,43 +1,49 @@
 [
     {
         "id": 1,
-        "src": "img/working/w-11.jpg",
-        "title": "Demo Content Here",
+        "src": "img/working/w-11.png",
+        "title": "The Brass Tax",
+        "description": "Every Applied Media project begins with what we lovingly call 'The Brass Tax Consultation'. This is where we hear  your wants,  dreams, and expectations for your branding project.",
         "link": "https://www.google.com/",
         "altText": "galler-1"
     },
     {
         "id": 2,
-        "src": "img/working/w-12.jpg",
-        "title": "Demo Content Here",
+        "src": "img/working/w-12.png",
+        "title": "Survey",
+        "description": "A detailed survey is conducted and all relevant measurements are taken. Photos of all signage areas are taken to assist in the design process.",
         "link": "https://www.google.com/",
         "altText": "galler-2"
     },
     {
         "id": 3,
-        "src": "img/working/w-13.jpg",
-        "title": "Demo Content Here",
+        "src": "img/working/w-13.png",
+        "title": "Design",
+        "description": "From initial logo design to established nationwide branding initiatives, our talented team of designers are ready to bring your vision to life.",
         "link": "https://www.google.com/",
         "altText": "galler-3"
     },
     {
         "id": 4,
-        "src": "img/working/w-14.jpg",
-        "title": "Demo Content Here",
+        "src": "img/working/w-14.png",
+        "title": "Build",
+        "description": "From large format digital printing, to custom fabrication, our team has got you covered. Our primary shop is located in Southern California with ancillary facilities throughout the country. Our capacity is virtually limitless.",
         "link": "https://www.google.com/",
         "altText": "galler-4"
     },
     {
         "id": 5,
-        "src": "img/working/w-15.jpg",
-        "title": "Demo Content Here",
+        "src": "img/working/w-15.png",
+        "title": "Install",
+        "description": "Applied Media relies heavily on our extensive vendor partner network to successfully execute installations in all 50 states and beyond.",
         "link": "https://www.google.com/",
         "altText": "galler-4"
     },
     {
         "id": 6,
-        "src": "img/working/w-16.jpg",
-        "title": "Demo Content Here",
+        "src": "img/working/w-16.png",
+        "title": "Project Management",
+        "description": "We focus on nationwide roll-outs and have assembled a dedicated project management team to follow your roll-out and provide key metrics every step of the way.It’s not just about the products you’re buying. It’s about the entire experience. Get in touch today to learn more about our features.",
         "link": "https://www.google.com/",
         "altText": "galler-4"
     }

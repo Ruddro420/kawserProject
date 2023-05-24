@@ -15,6 +15,10 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.slick-next:before{
+    display: none!important;
+}
+
 .inner-partner-image{
     display: flex!important;
     justify-content: center!important;
@@ -29,6 +33,7 @@
     padding: 10px!important;
     color: white!important;
     -webkit-font-smoothing: antialiased;
+    display: none!important;
 }
 
 @media(max-width:768px){

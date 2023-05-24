@@ -5,7 +5,7 @@
 .working-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 30px;
+    gap: 10px;
     margin: 50px;
 }
 
@@ -22,7 +22,7 @@
 /* .learn-more {
     margin-top: 10px;
     border: 2px solid white;
-    width: 50%;
+    width: 90%;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
     padding: 8px;
@@ -39,7 +39,7 @@
     padding: 10px;
     width: 90%;
     margin-left: 30px;
-    padding-left: 100px;
+    padding-left: 50px;
     position: absolute;
     bottom: 0;
 }
@@ -47,10 +47,14 @@
 .working-content:hover .learn-more{
     display: block!important;
     transition: 5s!important;
+    width: 90%;
 }
 
 .main-working-container h2 {
     font-size: 20px;
+}
+.working-img{
+    width: 200px;
 }
 
 @media(max-width:768px)
@@ -73,5 +77,8 @@
         padding-left: 50px!important;
         position: absolute;
         bottom: 0;
+    }
+    .working-img{
+        width: 100px;
     }
 }
