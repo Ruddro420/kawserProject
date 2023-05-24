@@ -4,10 +4,14 @@
 
 *{
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: none;
 }
 
 body{
     font-family: 'Inter', sans-serif;
+    width: 100%;
 }
 
 @media(max-width:768px){

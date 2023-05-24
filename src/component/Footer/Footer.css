@@ -3,7 +3,7 @@
     margin: auto!important;
 }
 
-@media(max-width:768px){
+@media(max-width:991px){
     .footer{
         width: 100%!important;
         margin: auto!important;

@@ -55,7 +55,7 @@
     font-size: 20px;
 }
 
-@media(max-width:768px)
+@media(max-width:991px)
 {
     .gallery-container{
         display: grid;
@@ -73,7 +73,7 @@
         padding: 10px!important;
         width: 97%!important;
         margin-left: 10px!important;
-        padding-left: 50px!important;
+        padding-left: 100px!important;
         position: absolute;
         bottom: 0;
         
