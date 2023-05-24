@@ -1,32 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
 import './MainSlider.css'
 import mainsliderData from '../../../mainslider.json'
-
 import Slider from "react-slick";
-
-// Custom Next Button For Slider
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "", marginRight: '70px' }}
-      onClick={onClick}
-    />
-  );
-}
-
-// Custom Previous Button Slider
-// function SamplePrevArrow(props) {
-//   const { className, style, onClick } = props;
-//   return (
-//     <div
-//       className={className}
-//       style={{ ...style, display: "block", background: "", zIndex: '99', marginLeft: '30px' }}
-//       onClick={onClick}
-//     />
-//   );
-// }
 
 // Main Function
 const MainSlider = () => {
@@ -47,6 +23,7 @@ const MainSlider = () => {
       <div data-aos="fade-left" data-aos-duration={1200} className='absolute bottom-32 right-11 z-50'>
         <p className='text-xl text-white font-bold text-right'>We manufacture and install signage, large <br /> format graphics, ADA, and decor all across <br /> the nation.</p>
       </div>
+      <div className='main-slide-container'>
       <Slider {...sliderSettings}>
         {
           mainsliderData.map(mainslider =>
@@ -57,6 +34,8 @@ const MainSlider = () => {
           )
         }
       </Slider>
+      </div>
+      <div className='background-overlay'></div>
     </div>
   );
 };
